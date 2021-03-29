@@ -1,0 +1,36 @@
+{
+    "name": "luna-dark",
+    "displayName": "Luna Dark",
+    "description": "Luna Dark Theme for Visual Studio Code",
+    "publisher": "AlperYoruk",
+    "version": "0.0.2",
+    "icon": "images/luna-dark-icon.png",
+    "galleryBanner": {
+        "color": "#2a2c2d"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yoruk-alper/luna-dark-theme"
+    },
+    "keywords": [
+        "theme",
+        "dark",
+        "luna dark",
+        "dark theme"
+    ],
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Luna Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Luna Dark-color-theme.json"
+            }
+        ]
+    }
+}
